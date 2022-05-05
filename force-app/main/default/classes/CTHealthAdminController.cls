@@ -6,6 +6,9 @@ public with sharing class CTHealthAdminController {
         System.debug('The HealthStatus Of the Person is ' +statusCount);
         return statusCount;
     }
+
+
+    //Adding tax call for merge
     @AuraEnabled
     public static Map<String,Integer> getLocationStatusCount(){
         Map<String,Integer> statusCount =  CTLocationController.getStatusCount();
