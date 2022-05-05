@@ -6,6 +6,9 @@ public with sharing class CTHealthAdminController {
         System.debug('The HealthStatus Of the Person is ' +statusCount);
         return statusCount;
     }
+
+
+    //Adding tax call for merge
     //Adding comment for merge conflict
     // Adding another merge comment to check for merge conflict
     // Adding another merge conflict
