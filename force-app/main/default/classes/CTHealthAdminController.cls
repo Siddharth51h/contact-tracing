@@ -9,6 +9,9 @@ public with sharing class CTHealthAdminController {
 
 
     //Adding tax call for merge
+    //Adding comment for merge conflict
+    // Adding another merge comment to check for merge conflict
+    // Adding another merge conflict
     @AuraEnabled
     public static Map<String,Integer> getLocationStatusCount(){
         Map<String,Integer> statusCount =  CTLocationController.getStatusCount();
