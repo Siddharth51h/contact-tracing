@@ -6,7 +6,7 @@ public with sharing class CTLocationTabController {
        List<Location_Tracing__c> traces = CTLocationTracingController.getVisitors(locationId);
        LocationInformation locationInfo = new LocationInformation();
        
-
+// Do not leave Space from--Test Branch 03
        if(location!=null){
       locationInfo.name = location.Address__c;
       locationInfo.pincode = location.Pincode__c;
